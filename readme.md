@@ -1,4 +1,4 @@
-# gulp "Start project" web-west
+# gulp "Reshet" web-west
 Сборка gulp
 
 ## Установка
