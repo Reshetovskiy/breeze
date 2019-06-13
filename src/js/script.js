@@ -64,8 +64,9 @@ toggle_menu = document.getElementsByClassName(toggleName);
     }
 }
 
-var navigationPage = new ToggleFunction('navigation-list__item');
-var navigationEvent = new ToggleFunction('header-list__item');
+var navigationPage = new ToggleFunction('navigation-list__item'); 
+var navigationEvent = new ToggleFunction('item--lang');
+var navigationEvent = new ToggleFunction('item--current');
 
 modalToggle('entry--show-modal', '.entry--modal', 'show--modal');
 modalToggle('regist--show-modal', '.regist--modal', 'show--modal');
@@ -152,5 +153,6 @@ var  ToggleFunction = function (toggle_menu) {
     }
  }
 
- var langToggle = new ToggleElement('personal-order-header' , 'show--order');
+ var langToggle = new ToggleElement('button-toggle--lang', 'show--order');
+  var currentToggle = new ToggleElement('button-toggle--currency' , 'show--order');
   var navUserToggle = new ToggleElement('button-page' , 'show--order');
