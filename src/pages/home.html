@@ -1,8 +1,139 @@
-<!--=include partials/layouts/begin.html -->
-    <!--=include partials/header.html -->
-    <main>
-        <!-- <div class="icon-svg icon-svg-corrected"></div> -->
-        @@include('mixins/svg-icon.html', {"name": "corrected", "class": "color-red"})
-    </main>
-    <!--=include partials/footer.html -->
-<!--=include partials/layouts/end.html -->
+ 
+<!--=include partials/header.html -->
+<section class="popular"> 
+    <div class="home--wrapper">
+        <div class="discounts-company">
+            <div class="discounts-preloader"></div>
+            <div class="swiper-container discounts--swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="discounts-item">
+                            <a href="#" class="discounts-item__link">
+                                <figure class="discounts-item__wrapper">
+                                    <img src="./img/background-slider.png" alt="" class="discounts-item__image">
+                                </figure>
+                                <div class="discounts-position">
+                                    <figure class="product-item">
+                                        <img class="product-item__img" src="./img/product.png" alt="">
+                                        <img class="product-item__blur" src="./img/blur-product.png" >
+                                    </figure>
+                                    <div class="discounts-content">
+                                        <h2 class="discounts-content__title" data-swiper-parallax="-500">
+                                            Breeze Noticeables
+                                        </h2>
+                                        <p class="discounts-content__description" data-swiper-parallax="-300">
+                                            The new series of natural air fresheners. 
+                                        </p>
+                                        <p class="discounts-content__description" data-swiper-parallax="-300">
+                                            Febreze Noticeables Meadows & Rain 
+                                        </p>
+                                        <p class="discounts-content__description" data-swiper-parallax="-300">
+                                            Air Freshener Refill.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="discounts-item">
+                            <a href="#" class="discounts-item__link">
+                                <figure class="discounts-item__wrapper">
+                                    <img src="./img/background-slider.png" alt="" class="discounts-item__image">
+                                </figure>
+                                <div class="discounts-position" data-swiper-parallax="-700">
+                                    <figure class="product-item">
+                                        <img class="product-item__img" src="./img/product.png" alt="">
+                                        <img class="product-item__blur" src="./img/blur-product.png" >
+                                    </figure>
+                                    <div class="discounts-content">
+                                        <h2 class="discounts-content__title" data-swiper-parallax="-500">
+                                            Breeze Noticeables
+                                        </h2>
+                                        <p class="discounts-content__description" data-swiper-parallax="-300">
+                                            The new series of natural air fresheners. 
+                                        </p>
+                                        <p class="discounts-content__description" data-swiper-parallax="-300">
+                                            Febreze Noticeables Meadows & Rain 
+                                        </p>
+                                        <p class="discounts-content__description" data-swiper-parallax="-300">
+                                            Air Freshener Refill.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="discounts-item">
+                            <a href="#" class="discounts-item__link">
+                                <figure class="discounts-item__wrapper">
+                                    <img src="./img/background-slider.png" alt="" class="discounts-item__image">
+                                </figure>
+                                <div class="discounts-position" data-swiper-parallax="-700">
+                                    <figure class="product-item">
+                                        <img class="product-item__img" src="./img/product.png" alt="">
+                                        <img class="product-item__blur" src="./img/blur-product.png" >
+                                    </figure>
+                                    <div class="discounts-content">
+                                        <h2 class="discounts-content__title" data-swiper-parallax="-500">
+                                            Breeze Noticeables
+                                        </h2>
+                                        <p class="discounts-content__description" data-swiper-parallax="-300">
+                                            The new series of natural air fresheners. 
+                                        </p>
+                                        <p class="discounts-content__description" data-swiper-parallax="-300">
+                                            Febreze Noticeables Meadows & Rain 
+                                        </p>
+                                        <p class="discounts-content__description" data-swiper-parallax="-300">
+                                            Air Freshener Refill.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">@@include('mixins/svg-icon.html', {"name": "next-arrow", "class": ""})</div>
+                <div class="swiper-button-prev">@@include('mixins/svg-icon.html', {"name": "next-arrow", "class": ""})</div>
+                <div class="discounts--pagination swiper-pagination"></div>
+            </div>
+        </div>
+        <nav class="novelty-container">
+            <div class="novelty">
+                <a href="#" class="novelty__link">
+                    <figure>
+                        <img src="img/novelty1.png" alt="" class="novelty-img">
+                    </figure>
+                    <p class="content">
+                        <span class="content__information content__information--title " > Best price  </span>
+                        <span class="content__information" > this week </span>
+                    </p>
+                </a>
+            </div>
+            <div class="novelty">
+                <a href="#" class="novelty__link">
+                    <figure>
+                        <img src="img/novelty1.png" alt="" class="novelty-img">
+                    </figure>
+                    <p class="content">
+                        <span class="content__information content__information--title " > Best price  </span>
+                        <span class="content__information" > this week </span>
+                    </p>
+                </a>
+            </div>
+            <div class="novelty">
+                <a href="#" class="novelty__link">
+                    <figure>
+                        <img src="img/novelty3.png" alt="" class="novelty-img">
+                    </figure>
+                    <p class="content">
+                        <span class="content__information content__information--title " > Best price  </span>
+                        <span class="content__information" > this week </span>
+                    </p>
+                </a>
+            </div>
+        </nav>
+    </div>
+</section>
+<!--=include partials/footer.html -->

@@ -1,0 +1,14 @@
+
+@media #{$sr-min-768} { 
+    .wrapper {
+        width: 748px;
+        margin: 0  auto;
+    }
+}
+
+@media #{$sr-max-767} { 
+    .wrapper {
+        width: 310px;
+        margin: 0  auto;
+    }
+}

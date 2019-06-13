@@ -1,3 +1,88 @@
-<header>
-    Header
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" inline>
+</head>
+<body>
+<header class="header">
+    <div class="header-top">
+        <div class="header-lines">
+            <span class="header-lines__item"></span>
+            <span class="header-lines__item"></span>
+            <span class="header-lines__item"></span>
+        </div>
+        <div class="header-settings">
+            <div class="header-call">
+                @@include('mixins/svg-icon.html', {"name": "phone", "class": "phone"})
+                <p class="header-call__number"> Call Us +777 (100) 1234</p>
+            </div>
+            <div class="header-visit">
+                <p class="header-visit__text">
+                   <span class="header-visit__text--visible"> Welcome visitor you can </span> <a class="header-visit__link" href="#">login</a>  or <a class="header-visit__link" href="#"> create </a> an account.
+                </p>
+            </div>
+            <nav class="header-toggle">
+                <button class="button-toggle button-toggle--lang personal-order-header"> lang </button>
+                <ul class="header-list header-list--lang">
+                    <li class="header-list__item active-toggle"><a href="#" class="header-list__link">EN</a></li>
+                    <li class="header-list__item"><a href="#" class="header-list__link">FR</a></li>
+                    <li class="header-list__item"><a href="#" class="header-list__link">GM</a></li>
+                </ul>
+                <button class="button-toggle button-toggle--currency personal-order-header">curr </button>
+                <ul class="header-list header-toggle__currency">
+                    <li class="header-list__item header-list__"><a href="#" class="header-list__link">$</a></li>
+                    <li class="header-list__item"><a href="#" class="header-list__link">€</a></li>
+                    <li class="header-list__item"><a href="#" class="header-list__link">£</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="header-brand">
+            <figure><img src="img/logo.png" alt="" class="header-brand__logo"></figure>
+            <p class="header-brand__subtitle">Online Store Theme </p>
+        </div>
+        <div class="header-search">
+            <input placeholder="Search entire store here..." type="text" class="header-search__input"><button class="header-search__button"> @@include('mixins/svg-icon.html', {"name": "header-search", "class": "search"}) </button>
+        </div>
+        <button class="personal-order-header button-user">
+            <span class="button-user__circle"></span>
+            <span class="button-user__circle"></span>
+            <span class="button-user__circle"></span>
+        </button>
+        <nav class="header-navbar ">
+            <ul class="header-event">
+                <li class="header-event__item"><a href="#" class="header-event__link">My Account</a></li>
+                <li class="header-event__item"><a href="#" class="header-event__link">My Wishlist </a></li>
+                <li class="header-event__item"><a href="#" class="header-event__link entry--show-modal">Log In </a></li>
+                <li class="header-event__item"><a href="#" class="header-event__link regist--show-modal header-event__link--border">Sign Up</a></li>
+            </ul>
+            <button class="card-amout">
+                    @@include('mixins/svg-icon.html', {"name": "icon_cart", "class": ""})
+                <p class="card-amout__text">Cart $0.00</p>
+            </button>
+        </nav>
+    </div>
+    <!-- <button class="button-page">
+        <span class="button-page__line"></span>
+        <span class="button-page__line"></span>
+        <span class="button-page__line"></span>
+    </button> -->
+    <nav class="navigation">
+        <ul class="navigation-list">
+            <li class="navigation-list__item active-toggle"><a href="#" class="navigation-list__link"> Home </a></li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link"> Solids </a></li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link"> Liquids </a></li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link"> Spray </a></li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link"> Electric </a></li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__link "> For cars </a></li>
+        </ul>
+    </nav>
 </header>

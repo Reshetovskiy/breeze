@@ -1,0 +1,15 @@
+
+@media #{$sr-min-768} { 
+    .header-search {
+        min-width: 190px;
+    }
+}
+
+@media #{$sr-max-767} { 
+    .header-search {
+        margin-left: 0px;
+        min-width: 120px;
+        padding: 6px 10px;
+    }
+    
+}

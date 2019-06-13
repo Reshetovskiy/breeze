@@ -1,0 +1,33 @@
+
+.breeze-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    position: relative;
+    &__title {
+        color: #3f3f4d;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    &__required {
+        color: #aadce0;
+    }
+    &__input {
+        width: 100%;
+        height: 48px;
+        border: 1px solid #d3d6fe;
+        background-color: #ffffff;
+        color:#59b7c2;
+        font-size: 16px;
+        padding: 0 20px;
+        transition-duration: 0.5s;
+        box-shadow: none;
+        &:focus {
+            border: 1px solid#59b7c2;
+        }
+        &::placeholder {
+            font-size: 16px;
+            color: #8d95b1;
+        }
+    }
+}

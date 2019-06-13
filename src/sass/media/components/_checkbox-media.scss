@@ -1,0 +1,65 @@
+@media #{$sr-max-767} {
+    
+    .breeze-checkbox {
+        &__title {
+            font-size: 14px;
+            &-checked {
+                min-width: 16px;
+                width:6px;
+                height: 16px;
+                margin-right: 10px;
+            }
+            &-icon {
+                width: 10px;
+                height: 8px;
+            }
+        }
+    }
+}
+
+@media #{$sr-min-768} {
+    
+    .breeze-checkbox {
+        &__title {
+            font-size: 13px;
+            font-weight: 400;
+            transition-duration: 0.5s;
+            &-checked {
+                min-width: 18px;
+                width: 18px;
+                height: 18px;
+                margin-right: 10px;
+            }
+            &-icon {
+                width: 10px;
+                height: 8px;
+            }
+        }
+    }
+}
+
+@media #{$sr-min-960} {
+
+    .breeze-checkbox {
+        margin-bottom: 20px;
+        &__checkbox {
+            display: none;
+        }
+        &__title {
+            font-size: 14px;
+            font-weight: 400;
+            &-checked {
+                width: 18px;
+                height: 18px;
+                margin-right: 17px;
+            }
+            &-icon {
+                width: 10px;
+                height: 8px;
+            }
+        }
+        &__link {
+            margin-left: 5px;
+        }
+    }
+}

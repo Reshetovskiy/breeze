@@ -1,0 +1,35 @@
+@media #{$sr-max-767} {
+    
+    .breeze-submit {
+        &__submit {
+            height: 44px;
+            font-size: 14px;
+            border-radius: 5px;
+            padding: 0 55px;
+        }
+    }
+}
+
+@media #{$sr-min-768} {
+    
+    .breeze-submit {
+        &__submit {
+            height: 44px;
+            font-size: 13px;
+            border-radius: 5px;
+            padding: 0 55px;
+        }
+    }
+}
+
+@media #{$sr-min-960} {
+
+    .breeze-submit {
+        &__submit {
+            height: 44px;
+            font-size: 13px;
+            border-radius: 5px;
+            padding: 0 55px;
+        }
+    }
+}

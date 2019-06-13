@@ -1,0 +1,158 @@
+@media #{$sr-min-768} {
+    
+    .discounts-company {
+        min-height: auto;
+    }
+
+    .discounts-position {
+        padding: 15px 17px;
+    }
+
+    .discounts-content {
+        z-index: 5;
+        &__title {
+            font-size: 30px;
+        }
+    }
+
+    .product-item {
+        margin-right: 25px;
+        &__img {
+            width: 300px;
+            height: 340px;
+        }
+        &__blur {
+            left: 100px;
+            top: 60px;
+        }
+    }
+
+   .novelty {
+       &__link {
+        min-width: 245px;
+        padding: 7px 9px;
+       }
+   }
+
+   .card-amout {
+    padding: 10px 12px;
+    }
+
+    .novelty-img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media #{$sr-max-767} {
+
+    .discounts-company {
+        min-height: 300px
+    }
+
+    .discounts-position {
+        padding: 25px 5px 5px 5px ;
+    }
+
+    .discounts-content {
+        &__title {
+            letter-spacing: 0.4px;
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 12px;
+            padding: 0 5px;
+        }
+        &__description {
+            line-height: 15px;
+            margin-bottom: 3px;
+            font-size: 8px;
+            padding: 0 5px;
+        }
+    }
+
+    .discounts-company {
+        margin-top: 10px;
+        min-height: auto;
+        .discounts--pagination {
+            bottom: 10px;
+            right: 11px;
+            .swiper-pagination-bullet {
+                width: 10px;
+                height: 10px;
+                border: 2px solid #ffffff;
+                margin: 0 2px;
+                &-active {
+                    border: 2px solid #222222;
+                }
+            }
+        }
+    }
+
+    .product-item {
+        margin-right: 10px;
+        &__img {
+            width: 100px;
+            height: 100px;
+        }
+        &__blur {
+            width: 100px;
+            height: 70px;
+            top: 10px;
+            left:20px;
+        }
+    }
+
+    .swiper-button-next {
+        padding: 4px 4px 4px 5px;
+        width: auto;
+        height: auto;
+        .icon-svg {
+            width: 7px;
+            height: 14px;
+            fill: #444;
+        }
+    }
+    
+    .swiper-button-prev {
+        padding: 4px 4px 4px 5px;
+        width: auto;
+        height: auto;
+        .icon-svg {
+            width: 7px;
+            height: 14px;
+            fill: #444;
+        }
+    }
+
+    .novelty-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .novelty {
+        margin-bottom: 10px;
+        &__link {
+            max-width: 310px;
+            padding: 7px 9px;
+        }
+    }
+
+    .novelty-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .content {
+        &__information {
+            &--title {
+                font-size: 20px;
+            }
+            font-size: 16px;
+        }
+    }
+
+    .button-toggle  {
+        display: block;
+    }
+}
+

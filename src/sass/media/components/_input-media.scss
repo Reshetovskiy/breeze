@@ -1,0 +1,44 @@
+@media #{$sr-max-767} {
+    
+    .breeze-input {
+        margin-bottom: 15px;
+        &__title {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        &__input {
+            width: 100%;
+            height: 35px;
+        }
+    }
+}
+
+@media #{$sr-min-768} {
+    
+    .breeze-input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+        &__title {
+            margin-bottom: 5px;
+        }
+        &__input {
+            width: 100%;
+            height: 38px;
+        }
+    }
+}
+
+@media #{$sr-min-960} {
+
+    .breeze-input {
+        margin-bottom: 20px;
+        &__title {
+            margin-bottom: 5px;
+        }
+        &__input {
+            height: 42px;
+        }
+    }
+}

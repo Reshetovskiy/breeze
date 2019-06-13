@@ -1,5 +1,19 @@
 @import "partials/variables.scss";
 @import "partials/icons.scss";
 @import "partials/svg_sprite.scss";
+@import "partials/default.scss";
+@import "partials/fonts.scss";
+@import "partials/helpers.scss";
+
+@import "components/_input.scss";
+@import "components/_checkbox.scss";
+@import "components/_submit.scss";
+@import "components/_modals.scss";
+@import "components/header/_header.scss";
+@import "components/header/_navigation-page.scss";
+@import "components/header/_search.scss";
 
 @import "pages/home.scss";
+
+@import "media/media-home.scss";
+@import "media/media.scss";

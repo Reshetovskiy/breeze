@@ -1,0 +1,49 @@
+<div class="modal regist--modal">
+    <div class="modal-container">
+        <form action="#">
+            <div class="modal-body">
+                <button type="button" class="modal-body__close">
+                    <span class="modal-body__icon"></span>
+                </button>
+                <h2 class="modal-body__title breeze--form-title">Registration</h2>
+                <div class="breeze-input">
+                    <label for="registration-email" class="breeze-input__title">
+                        E-mail
+                        <span class="breeze-input__required">*</span>
+                    </label>
+                    <input type="text" name="registration-email" class="breeze-input__input" id="registration-email">
+                </div>
+                <div class="breeze-input">
+                    <label for="registration-password" class="breeze-input__title">
+                        Password
+                        <span class="breeze-input__required">*</span>
+                    </label>
+                    <input type="text" name="registration-password" class="breeze-input__input" id="registration-password">
+                </div>
+                <div class="breeze-input">
+                    <label for="registration-name" class="breeze-input__title">
+                        Full name
+                        <span class="breeze-input__required">*</span>
+                    </label>
+                    <input type="text" name="registration-name" class="breeze-input__input" id="registration-name">
+                </div>
+                <div class="breeze-input">
+                    <label for="registration-number" class="breeze-input__title">Phone</label>
+                    <input type="text" name="registration-number" class="breeze-input__input" id="registration-number">
+                </div>
+                <div class="breeze-checkbox">
+                    <input type="checkbox" class="breeze-checkbox__checkbox" id="processing">
+                    <label for="processing" class="breeze-checkbox__title">
+                        <span class="breeze-checkbox__title-checked">
+                            @@include('mixins/svg-icon.html', {"name": "checked", "class": "breeze-checkbox__title-icon"})
+                        </span>
+                        <span>I agree to processing <a href="#" class="breeze-checkbox__link">personal data</a></span>
+                    </label>
+                </div>
+                <div class="breeze-button__button registration--submit">
+                    <button type="submit" class="breeze-button__button">To register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

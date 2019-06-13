@@ -1,0 +1,91 @@
+
+
+
+ 
+    
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1050;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(81, 81, 94, 0.9);
+        &.show--modal {
+            animation-name: entry-show-modal;
+            animation-duration: 0.5s;
+            display: flex;
+            opacity: 1;
+        }
+    }
+
+    .modal-container {
+        width: 677px;
+        background-color: white;
+        position: relative;
+    }
+
+    .modal-body {
+        padding: 49px 60px 60px;
+        &__close {
+            position: absolute;
+            top: 0;
+            right: 0px;
+            background-color: #59b7c2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+        &__icon {
+            display: block;
+            width: 58px;
+            height: 53px;
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                display: block;
+                width: 25px;
+                height: 2px;
+                background-color: white;
+                transform: translateX(-50%) translateY(-50%) rotate(45deg);
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                display: block;
+                width: 25px;
+                height: 2px;
+                background-color: white;
+                transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+            }
+        }
+        &__title {
+            margin-bottom: 40px;
+        }
+    }
+
+    .modal-link {
+        margin-top: 40px;
+        &__link {
+            color: #59b7c2;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+ 

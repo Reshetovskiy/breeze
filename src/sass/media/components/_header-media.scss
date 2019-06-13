@@ -1,0 +1,106 @@
+@media #{$sr-min-768} { 
+
+    .header-bottom {
+        padding: 23px 0 35px 0;
+    }
+
+    .header-search {
+        min-width: 190px;
+    }
+    .header-event {
+        &__link {
+            padding: 0 10px;
+        }
+    }
+}
+
+@media #{$sr-max-767} { 
+
+    .header-call {
+        display: flex;;
+        align-items: center;
+        font-size: 11px;
+        &__number {
+            display: none;
+            margin-left: 8px;
+        }
+    }
+
+    .header-toggle {
+        position: relative;
+    }
+
+    .header-list--lang {
+        display: none;
+        position: absolute;
+        top: 100%;
+    }
+ 
+    .header-list {
+        z-index: 10;
+        &__item {
+            max-width: 34px;
+            padding: 8px 10px;
+        }
+    }
+
+    .header-toggle__currency {
+        @extend  .header-list--lang;
+        left: 13px;
+        .header-list {
+            z-index: 10;
+            &__item {
+                max-width: 36px;
+                padding: 8px 14px;
+            }
+        }
+    }
+
+    .icon-svg-phone {
+        width: 20px;
+        height: 20px;
+    }
+
+    .header-visit {
+        &__text {
+            font-size: 11px;
+            &--visible {
+                display: none;
+            }
+        }
+    }
+
+    .button-toggle {
+        background: #59b7c2;
+        border: 1px solid #888;
+        outline: 0;
+        color: #fff;
+        min-width: 36px;
+        margin-right: 2px;
+        padding: 2px 4px;
+    }
+
+    .header-settings {
+        padding-bottom: 4px;
+    }
+
+    .show--order {
+        display: block;
+    }
+
+    .header-bottom {
+        position: relative;
+        padding: 20px 0 25px 0;
+    }
+
+    .header-brand {
+        &__logo {
+            width: 50px;
+            height: 30px;
+        }
+        &__subtitle {
+            display: none;
+        }
+    }
+
+} 
